@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz Game</title>
+<style >
+	h1{
+		text-align: center;
+		color: blue;
+		font-size: 50px;
+	}
+	p{
+		color: blue;
+		font-weight: bold;
+		font-size: 20px;	
+	}
+	body{
+		background-color: lightblue;
+	}
+	input{
+		color: indigo;
+	}
+	button{
+		color: green;
+	}
+	select{
+		color: red;
+	}
+</style>
+</head>
+<body>
+	<form action="Quiz_Game.jsp" method="post">
+	<h1>Welcome DSA Quiz</h1>
+<tr>	
+		<td>
+			<p>Q1. How can we describe an array in the best possible way?</p>
+		    (A):<input type="radio" name="qu1" value="A">The Array shows a hierarchical structure.</input><br>
+		    (B):<input type="radio" name="qu1" value="B">Arrays are immutable.</input><br>
+		    (C):<input type="radio" name="qu1" value="C">Container that stores the elements of similar types.</input><br>
+		    (D):<input type="radio" name="qu1" value="D">The Array is not a data structure.</input><br><br>
+			<button type="button">Next</button>
+					<td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: C</option>
+                   </select>
+                </td>
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q2. Which of the following is the correct way of declaring an array?</p>
+		    (A):<input type="radio" name="qu2" value="A">int javatpoint[10];</input><br>
+		    (B):<input type="radio" name="qu2" value="B">int javatpoint;</input><br>
+		    (C):<input type="radio" name="qu2" value="C">javatpoint{20};</input><br>
+		    (D):<input type="radio" name="qu2" value="D">array javatpoint[10];</input><br><br>
+		    <button type="button">Next</button>
+			 
+			 <td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: A</option>
+                   </select>
+                </td>
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q3. How can we initialize an array in C language?</p>
+		    (A):<input type="radio" name="qu3" value="A">int arr[2]=(10, 20)</input><br>
+		    (B):<input type="radio" name="qu3" value="B">int arr(2)={10, 20}</input><br>
+		    (C):<input type="radio" name="qu3" value="C">int arr[2] = {10, 20}</input><br>
+		    (D):<input type="radio" name="qu3" value="D">int arr(2) = (10, 20)</input><br><br>
+		    <button type="button">Next</button>
+			 
+			 <td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: C</option>
+                   </select>
+                </td>
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q4. Which of the following is the advantage of the array data structure?</p>
+		    (A):<input type="radio" name="qu4" value="A"> Elements of mixed data types can be stored.</input><br>
+		    (B):<input type="radio" name="qu4" value="B">Easier to access the elements in an array.</input><br>
+		    (C):<input type="radio" name="qu4" value="C">Index of the first element starts from 1.</input><br>
+		    (D):<input type="radio" name="qu4" value="D">Elements of an array cannot be sorted</input><br><br>
+		    <button type="button">Next</button>
+			 
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: B</option>
+                   </select>
+                </td>
+			 
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q5. Which of the following highly uses the concept of an array?</p>
+		    (A):<input type="radio" name="qu5" value="A">Binary Search tree.</input><br>
+		    (B):<input type="radio" name="qu5" value="B">Caching.</input><br>
+		    (C):<input type="radio" name="qu5" value="C">Spatial locality</input><br>
+		    (D):<input type="radio" name="qu5" value="D">Scheduling of Processes</input><br><br>
+		    <button type="button">Next</button>
+			 
+			 <td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: C</option>
+                   </select>
+                </td>
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q6. Which of the following is the disadvantage of the array?</p>
+		    (A):<input type="radio" name="qu6" value="A">Stack and Queue data structures can be implemented through an array.</input><br>
+		    (B):<input type="radio" name="qu6" value="B">Index of the first element in an array can be negative.</input><br>
+		    (C):<input type="radio" name="qu6" value="C">Wastage of memory if the elements inserted in an array are lesser than the allocated size.</input><br>
+		    (D):<input type="radio" name="qu6" value="D">Elements can be accessed sequentially.</input><br><br>
+		    <button type="button">Next</button>
+			
+			 <td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: C</option>
+                   </select>
+                </td>
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q7. What is the output of the below code?<br>
+				#include <stdio.h><br>  
+					int main() <br> 
+					{ <br> 
+  						 int arr[5]={10,20,30,40,50}; <br> 
+  						 printf("%d", arr[5]); <br> 
+   						 return 0;<br>  
+					}<br>  </p>
+		    (A):<input type="radio" name="qu7" value="A">Garbage value</input><br>
+		    (B):<input type="radio" name="qu7" value="B">10</input><br>
+		    (C):<input type="radio" name="qu7" value="C">50</input><br>
+		    (D):<input type="radio" name="qu7" value="D">Garbage value</input><br><br>
+		    <button type="button">Next</button>
+			 
+			 <td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: A</option>
+                   </select>
+                </td>
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q8. Which one of the following is the size of int arr[9] assuming that int is of 4 bytes?</p>
+		    (A):<input type="radio" name="qu8" value="A">9</input><br>
+		    (B):<input type="radio" name="qu8" value="B">36</input><br>
+		    (C):<input type="radio" name="qu8" value="C">35</input><br>
+		    (D):<input type="radio" name="qu8" value="D">None of the above</input><br><br>
+		    <button type="button">Next</button>
+			 
+			 <td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: B</option>
+                   </select>
+                </td>
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q9.Which one of the following is the process of inserting an element in the stack?</p>
+		    (A):<input type="radio" name="qu9" value="A">Insert</input><br>
+		    (B):<input type="radio" name="qu9" value="B"></input>Add<br>
+		    (C):<input type="radio" name="qu9" value="C">Push</input><br>
+		    (D):<input type="radio" name="qu9" value="D">None of the above</input><br><br>
+		    <button type="button">Next</button>
+			
+			 <td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: C</option>
+                   </select>
+                </td>
+		 </td>
+</tr>
+<tr>	
+		<td>
+			<p>Q10. When the user tries to delete the element from the empty stack then the condition is said to be a ____</p>
+		    (A):<input type="radio" name="qu10" value="A">Underflow</input><br>
+		    (B):<input type="radio" name="qu10" value="B">Garbage collection</input><br>
+		    (C):<input type="radio" name="qu10" value="C">Overflow</input><br>
+		    (D):<input type="radio" name="qu10" value="D">None of the above</input><br><br>
+		    <button type="button">Next</button>
+			 <td>
+                   <select name="ans">
+			<option>Show Answer</option>
+			<option>Answer: A</option>
+                   </select><br><br>
+                </td>
+		 </td>
+</tr><br><br>
+<input type="submit" name="result" placeholder="Result"></input>
+<input type="reset" name="reset" placeholder="reset"></input>
+</table>
+</form>
+<script src="Quiz.js"></script>
+</body>
+</html>
